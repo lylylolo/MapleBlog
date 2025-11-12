@@ -1,6 +1,14 @@
 
 # MapleBlog
 
+[![CI](https://github.com/maplezzzzzz/MapleBlog/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/maplezzzzzz/MapleBlog/actions/workflows/ci.yml)
+[![Version](https://img.shields.io/github/package-json/v/maplezzzzzz/MapleBlog)](https://github.com/maplezzzzzz/MapleBlog/blob/main/package.json)
+[![License](https://img.shields.io/github/license/maplezzzzzz/MapleBlog)](./LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/maplezzzzzz/MapleBlog)](https://github.com/maplezzzzzz/MapleBlog/commits/main)
+[![Node](https://img.shields.io/badge/node-%E2%89%A518-339933?logo=node.js)](https://nodejs.org/en)
+
+![网站截图](./public/favicon/logo.png)
+
 一个基于 Astro 的现代化内容站点，支持博客、笔记、友链、评论与本地搜索。
 
 ## 目录
@@ -123,10 +131,13 @@ MapleBlog/
 │   │   ├── common/      # 通用组件（友链、评论）
 │   │   └── ui/          # 基础 UI（按钮、卡片、图标）
 │   ├── content/         # 内容源（Markdown / YAML）
+│   │   ├── blog/        # 博客文章（博客文章放在这里，md格式）
+│   │   ├── notes/       # 动态内容（动态内容放在这里，md格式）
+│   │   ├── pages/       # 静态页面（静态页面放在这里，md格式）
 │   ├── lib/             # 工具函数与配置
 │   │   ├── config.ts    # 站点配置（SEO、分页）
 │   │   └── utils/       # 通用工具（日期、字符串、URL）
-│   ├── pages/           # 路由页面
+│   ├── pages/           # 路由页面（在这里调整页面逻辑）
 │   └── styles/          # 全局样式（Tailwind + SCSS）
 ├── .env.example         # 环境变量示例
 ├── astro.config.mjs     # Astro 配置
