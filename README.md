@@ -1,9 +1,7 @@
 
 # MapleBlog
 
-[![CI](https://github.com/maplezzzzzz/MapleBlog/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/maplezzzzzz/MapleBlog/actions/workflows/ci.yml)
 [![Version](https://img.shields.io/github/package-json/v/maplezzzzzz/MapleBlog)](https://github.com/maplezzzzzz/MapleBlog/blob/main/package.json)
-[![License](https://img.shields.io/github/license/maplezzzzzz/MapleBlog)](./LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/maplezzzzzz/MapleBlog)](https://github.com/maplezzzzzz/MapleBlog/commits/main)
 [![Node](https://img.shields.io/badge/node-%E2%89%A518-339933?logo=node.js)](https://nodejs.org/en)
 
@@ -22,12 +20,6 @@
 - 📱 响应式设计：适配桌面、平板、手机多端
 - ⚡ 高性能：静态生成 + 边缘缓存，首屏极速加载
 
-### 技术栈
-- 前端框架：Astro 5.x + React 18 + TypeScript 5
-- 样式方案：Tailwind CSS 3 + PostCSS + SCSS
-- 内容管理：文件内容集合（Astro Content Collections）
-- 部署平台：Netlify / Vercel / 自建服务器
-
 ### 网站截图
 首页截图
 ![网站截图](./public/assets/uploads/截图.jpg)
@@ -35,6 +27,12 @@
 ![网站截图2](./public/assets/uploads/截图4.jpg)
 友情链接
 ![网站截图3](./public/assets/uploads/截图3.jpg)
+
+### 技术栈
+- 前端框架：Astro 5.x + React 18 + TypeScript 5
+- 样式方案：Tailwind CSS 3 + PostCSS + SCSS
+- 内容管理：文件内容集合（Astro Content Collections）
+- 部署平台：Netlify / Vercel / 自建服务器
 
 
 ## 🚀 快速开始
